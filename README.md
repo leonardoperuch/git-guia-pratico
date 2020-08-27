@@ -7,6 +7,9 @@ https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
 ### Instalação do Editor - VSCODE
 https://code.visualstudio.com/
 
+### Repositório Remoto
+http://github.com/
+
 
 # AGENDA DO CURSO
 
@@ -18,16 +21,21 @@ https://code.visualstudio.com/
 - [x] Visualizar os pontos na linha do tempo
 
 - [X] Visualizar o estado dos seus objetos que estão no seu diretório de trabalho
-- [] Visualizar o conteúdo dos seus objetos em um determinado ponto na linha do tempo
+- [X] Visualizar o conteúdo dos seus objetos em um determinado ponto na linha do tempo
 
-- [] Criar uma nova versão do seu projeto, mas sem afetar os arquivos dessa linha do tempo principal.
-- [] Realizar alterações nessa nova versão.
+- [X] Criar uma nova versão do seu projeto, mas sem afetar os arquivos dessa linha do tempo principal.
+- [X] Realizar alterações nessa nova versão.
 
-- [] Você adiciona as novas funcionalidades ao seu projeto em produção
-- [] Você quer deletar a branch da nova funcionalidade, depois de aplicar em seu projeto.
+- [X] Você adiciona as novas funcionalidades ao seu projeto em produção
+- [X] Você quer deletar a branch da nova funcionalidade, depois de aplicar em seu projeto.
+
+- [] Adicionar seu projeto na nuvem (https://github.com/)
+- [] Realizar alterações locais e subir para a nuvem
+- [] Simular outras pessoas alterando o repositório remoto e seu repositório então tem que ser atualizado com as ultimas modificações
+- [] Simular conflito em anteção no mesmo arquivo
 
 
-# Principais comandos
+# Principais comandos GIT
 
 * `git config` // realiza as configurações iniciais
     $ `git config --global user.name "Leonardo Peruch"` // Define a propriedade user.name
@@ -67,13 +75,18 @@ https://code.visualstudio.com/
     $ `git checkout -B nome_branch` // Cria uma nova ramificação
 
 * `git merge` // unir linhas do tempo
-    $ `git merge nome_branch` // Unir os branchs
+    $ `git merge nome_branch`
+
+# Principais comandos GIT para trabalhar com o repositório remoto
+
+* `git remote add origin <url_site>` // comandos para gerenciar o repositório remoto
+    $ `git remote add origin <url_site>` // associa o repositório local com o repositório remoto da url
 
 * `git push` // envia alterações locais para o repositório remoto
-// atualizar
+    $ `git push -u origin master` 
+
+* `git pull` //  atualizar o repositório local com arquivos remotos diferentes
 
 * `git clone` // clonar um projeto / repositório
     $ `git clone https://github.com/leonardoperuch/public-apis`
 
-* `git pull` // puxa do repositório remoto
-// obter
