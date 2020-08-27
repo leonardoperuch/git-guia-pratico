@@ -35,9 +35,11 @@ https://tortoisegit.org/
 - [X] Adicionar seu projeto na nuvem (https://github.com/)
 - [X] Realizar alterações locais e subir para a nuvem
 - [X] Simular outras pessoas alterando o repositório remoto e seu repositório então tem que ser atualizado com as ultimas modificações
-- [] Resolver conflito em alterações do mesmo arquivo.
+- [X] Resolver conflito em alterações do mesmo arquivo.
 
-- [] Começar a trabalhar em um outro projeto de alguém.
+- [X] Começar a trabalhar em um outro projeto de alguém.
+
+- [X] Git bash
 
 
 # Principais comandos GIT
