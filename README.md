@@ -53,7 +53,7 @@ https://tortoisegit.org/
 * `git init` // inicia um repositório do GIT a partir do diretório corrente. 
 
 * `git add` // envia mudanças para área de preparação
-    * * `git add nome_arquivo` // adiciona um arquivo específico
+    * `git add nome_arquivo` // adiciona um arquivo específico
     * * `git add .` // adiciona vários arquivos
 
 * `git commit` // adiciona um ponto na linha do tempo
