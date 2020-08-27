@@ -10,6 +10,9 @@ https://code.visualstudio.com/
 ### Repositório Remoto
 http://github.com/
 
+## CLient para GIT - Windows Shell
+https://tortoisegit.org/
+
 
 # AGENDA DO CURSO
 
@@ -29,10 +32,12 @@ http://github.com/
 - [X] Você adiciona as novas funcionalidades ao seu projeto em produção
 - [X] Você quer deletar a branch da nova funcionalidade, depois de aplicar em seu projeto.
 
-- [] Adicionar seu projeto na nuvem (https://github.com/)
-- [] Realizar alterações locais e subir para a nuvem
-- [] Simular outras pessoas alterando o repositório remoto e seu repositório então tem que ser atualizado com as ultimas modificações
-- [] Simular conflito em anteção no mesmo arquivo
+- [X] Adicionar seu projeto na nuvem (https://github.com/)
+- [X] Realizar alterações locais e subir para a nuvem
+- [X] Simular outras pessoas alterando o repositório remoto e seu repositório então tem que ser atualizado com as ultimas modificações
+- [] Resolver conflito em alterações do mesmo arquivo.
+
+- [] Começar a trabalhar em um outro projeto de alguém.
 
 
 # Principais comandos GIT
@@ -48,8 +53,8 @@ http://github.com/
 * `git init` // inicia um repositório do GIT a partir do diretório corrente. 
 
 * `git add` // envia mudanças para área de preparação
-    $ `git add nome_arquivo` // adiciona um arquivo específico
-    $ `git add .` // adiciona vários arquivos
+    * * `git add nome_arquivo` // adiciona um arquivo específico
+    * * `git add .` // adiciona vários arquivos
 
 * `git commit` // adiciona um ponto na linha do tempo
     $ `git commit -m 'seu comentario sobre a alteracao'` // Faz o commit dos arquivos para o repositório git
