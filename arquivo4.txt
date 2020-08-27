@@ -1,2 +1,4 @@
 linha 1
 linha 2 - alterado pelo repositorio local
+linha 2 - alterado por outra pessoa
+linha 3
