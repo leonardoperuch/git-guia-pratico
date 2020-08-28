@@ -55,7 +55,7 @@ https://tortoisegit.org/
 * `git init` // inicia um repositório do GIT a partir do diretório corrente. 
 
 * `git add` // envia mudanças para área de preparação
-    * `git add nome_arquivo` // adiciona um arquivo específico
+    * `git add <nome_arquivo>` // adiciona um arquivo específico
     * `git add .` // adiciona vários arquivos
 
 * `git commit` // adiciona um ponto na linha do tempo
@@ -72,17 +72,17 @@ https://tortoisegit.org/
     * `git show` // Visualiza o último ponto na história
 
 * `git branch` // gerenciar novas ramificações da linhas do tempo
-    * `git branch nome_branch` // Cria uma nova ramificação
+    * `git branch <nome_do_branch>` // Cria uma nova ramificação
     * `git branch` // Visualiza as linhas do tempo
-    * `git branch -D nome_branch` // Visualiza as linhas do tempo
+    * `git branch -D <nome_do_branch>` // Visualiza as linhas do tempo
 
 * `git checkout` // manipula as linhas do tempo
-    * `git checkout nome_branch` // Baixa algum branch específico
-    * `git checkout nome_arquivo` // Baixa somente o arquivo
-    * `git checkout -B nome_branch` // Cria uma nova ramificação e já faz o checkout
+    * `git checkout <nome_do_branch>` // Baixa algum branch específico
+    * `git checkout <nome_do_arquivo>` // Baixa somente o arquivo
+    * `git checkout -B <nome_do_branch>` // Cria uma nova ramificação e já faz o checkout
 
 * `git merge` // unir linhas do tempo
-    * `git merge nome_branch`
+    * `git merge <nome_do_branch>`
 
 # Principais comandos GIT para trabalhar com o repositório remoto
 
