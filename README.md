@@ -74,7 +74,7 @@ https://tortoisegit.org/
 * `git branch` // gerenciar novas ramificações da linhas do tempo
     * `git branch <nome_do_branch>` // Cria uma nova ramificação
     * `git branch` // Visualiza as linhas do tempo
-    * `git branch -D <nome_do_branch>` // Visualiza as linhas do tempo
+    * `git branch -D <nome_do_branch>` // Deleta uma ramificação
 
 * `git checkout` // manipula as linhas do tempo
     * `git checkout <nome_do_branch>` // Baixa algum branch específico
